@@ -6,7 +6,6 @@ import "time"
 func DateFormatterDB(format string) string {
 
 	currentTime := time.Now()
-	currentTime.Format(format)
 
-	return currentTime.String()
+	return currentTime.Format(format)
 }
